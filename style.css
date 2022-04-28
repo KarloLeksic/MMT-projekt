@@ -26,19 +26,21 @@ section{
 	position: relative;
 }
 
-#hobbie{
+.hobbie{
 	position: absolute;
 	font-family: "Montserrat Bold";
-	top: 40%; /*kolko je od gornjeg ruba*/
+	top: 30%; /*kolko je od gornjeg ruba*/
 	left: 50%;
 	transform: translate(-50%, -50%);
 }
 
-#hobbies{
+.hobbies{
 	position: absolute;
-	top: 60%; /*kolko je od gornjeg ruba*/
+	top: 55%; /*kolko je od gornjeg ruba*/
 	left: 50%;
 	transform: translate(-50%, -50%);
+	text-align: left;
+	font-size: 14px;
 }
 
 #profilePic1{
