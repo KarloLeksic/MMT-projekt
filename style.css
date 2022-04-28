@@ -38,6 +38,7 @@ hr{
     text-align: center;
     height: 650px;
 	position: relative;
+	line-height: 1.5;
 }
 
 .hobbie{
@@ -46,7 +47,7 @@ hr{
 	top: 28%; /*kolko je od gornjeg ruba*/
 	left: 50%;
 	transform: translate(-50%, -50%);
-	font-size: 35px;
+	font-size: 40px;
 }
 
 .hobbies{
@@ -55,7 +56,7 @@ hr{
 	left: 50%;
 	transform: translate(-50%, -50%);
 	text-align: left;
-	font-size: 14px;
+	font-size: 17px;
 }
 
 #profilePic1{
@@ -314,13 +315,14 @@ section{
 
 #name{
 	position: absolute;
-	top: 20%; /*kolko je od gornjeg ruba*/
+	top: 25%; /*kolko je od gornjeg ruba*/
 	left: 50%;
 	transform: translate(-50%, -50%);
 
 	font-family: "Montserrat Bold";
 	/*color: #523328;*/
 	color: #ffffff;
+	font-size: 40px;
 }
 
 
@@ -334,6 +336,7 @@ section{
 	font-size: 17px;
 	text-align: left;
 	color: #ffffff;
+	line-height: 1.5;
 }
 
 #profilePic1{
