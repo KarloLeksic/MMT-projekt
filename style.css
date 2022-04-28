@@ -303,7 +303,7 @@ section{
 
 }
 
-#name{
+.name{
 	position: absolute;
 	top: 25%; /*kolko je od gornjeg ruba*/
 	left: 50%;
@@ -368,4 +368,48 @@ a.linksFooter:hover{
 footer{
 	background:#EFE9F4;
 	text-align: center;	
+}
+
+@media only screen and (max-width: 1720px) {
+	.name, .hobbie{
+		font-size: 30px;
+		top: 30%;
+	}
+	.about, .hobbies{
+		font-size: 14px;
+	}
+  }
+
+@media only screen and (max-width: 1530px){
+	.rightHobbies{
+		height: 570px;
+	}
+	.leftHobbies{
+		height: 570px;
+	}
+	.rightAudio1{
+	background-size: 100%;
+	}
+	.leftVideo1{
+	background-size: 100%;
+	}
+	video{
+	width: 142px;
+	height: 238px;  
+	}
+	.about{
+		top: 52%;
+	}
+}
+
+@media only screen and (max-width: 1450px){
+	.rightHobbies{
+		background-size: 100%;
+	}
+	.hobbie{
+		top: 27%;		
+	}
+	.hobbies{
+		font-size: 13px;
+	}
 }
