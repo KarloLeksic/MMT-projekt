@@ -4,15 +4,14 @@ body{
 
 section{
 	width:100%;
-  	height: 720px;
+  	height: 500px;
 }
 
-hr{
+#broker{
 	margin: 0;
     height: 15px;
-    /* Set the hr color */
-    color: #002258; /* old IE */
-    background-color: #002258; /* Modern Browsers */
+    color: #002258; 
+    background-color: #002258; 	
 }
 
 .leftHobbies{
@@ -221,10 +220,6 @@ img {vertical-align: middle;}
 	src: url("fonts/Montserrat/Montserrat-Bold.ttf") format("truetype");
 }
 
-section{
-	width:100%;
-    height: 500px;
-}
 
 .left{
 	background-image: url("images/background/oblik5.png");
@@ -412,4 +407,13 @@ footer{
 	.hobbies{
 		font-size: 13px;
 	}
+}
+
+#futerHr{
+	width: 87%;
+	align-items: center;
+}
+
+html{
+	scroll-behavior: smooth;
 }
