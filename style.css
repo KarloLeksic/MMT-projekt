@@ -2,12 +2,21 @@ section{
 	width:100%;
   	height: 720px;
 }
+
+hr{
+	margin: 0;
+    height: 15px;
+    /* Set the hr color */
+    color: #002258; /* old IE */
+    background-color: #002258; /* Modern Browsers */
+}
+
 .leftHobbies{
 	float:left;
 	width:50%;
 	box-sizing:border-box;
   	text-align: center;
-  	height: 700px;
+  	height: 650px;
 	position: relative;
 }
 
@@ -22,7 +31,7 @@ section{
 	width:50%;
 	box-sizing:border-box;
     text-align: center;
-    height: 700px;
+    height: 650px;
 	position: relative;
 }
 
@@ -220,6 +229,7 @@ section{
 .left{
 	background-image: url("images/background/oblik5.png");
 	/*background-size: 62%;*/
+	background-position: center;
     background-color:#EFE9F4;
 	float:left;
 	width:50%;
@@ -264,8 +274,9 @@ section{
 }
 
 .rightAudio1{
-    background-image: url("images/background/oblik8.png");
-	background-size: 62%;
+    background-image: url("images/background/oblik11.png");
+	/*background-size: 62%;*/
+	background-position: center;
     background-color:#EFE9F4;
 	float:left;
 	width:50%;
