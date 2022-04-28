@@ -59,13 +59,6 @@ hr{
 	font-size: 17px;
 }
 
-#profilePic1{
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	border-radius: 50%;
-}
 
 .test{
   background-color: aquamarine;
@@ -309,10 +302,6 @@ section{
 
 }
 
-#section2{
-    background-color: bisque;
-}
-
 #name{
 	position: absolute;
 	top: 25%; /*kolko je od gornjeg ruba*/
@@ -339,7 +328,7 @@ section{
 	line-height: 1.5;
 }
 
-#profilePic1{
+.profilePic{
 	height: 300px;
 	width: 300px;
 	position: absolute;
@@ -347,30 +336,12 @@ section{
 	left: 50%;
 	transform: translate(-50%, -50%);
 	border-radius: 50%;
-	border: 3px solid #EFE9F4;
+	border: 5px solid #487ead;
 	cursor: pointer;
 	transition: 0.4s;
 }
 
-#KarloPic:hover{
-	filter: brightness(120%);
-}
-
-#KarloPic{
-	height: 300px;
-	width: 300px;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	border-radius: 50%;
-	border: 3px solid #EFE9F4;
-
-	cursor: pointer;
-	transition: 0.4s;
-}
-
-#profilePic1:hover{
+.profilePic:hover{
 	filter: brightness(120%);
 }
 
