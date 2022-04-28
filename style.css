@@ -38,6 +38,7 @@ hr{
     text-align: center;
     height: 650px;
 	position: relative;
+	line-height: 1.5;
 }
 
 .hobbie{
@@ -46,7 +47,7 @@ hr{
 	top: 28%; /*kolko je od gornjeg ruba*/
 	left: 50%;
 	transform: translate(-50%, -50%);
-	font-size: 35px;
+	font-size: 40px;
 }
 
 .hobbies{
@@ -55,16 +56,9 @@ hr{
 	left: 50%;
 	transform: translate(-50%, -50%);
 	text-align: left;
-	font-size: 14px;
+	font-size: 17px;
 }
 
-#profilePic1{
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	border-radius: 50%;
-}
 
 .test{
   background-color: aquamarine;
@@ -308,19 +302,16 @@ section{
 
 }
 
-#section2{
-    background-color: bisque;
-}
-
 #name{
 	position: absolute;
-	top: 20%; /*kolko je od gornjeg ruba*/
+	top: 25%; /*kolko je od gornjeg ruba*/
 	left: 50%;
 	transform: translate(-50%, -50%);
 
 	font-family: "Montserrat Bold";
 	/*color: #523328;*/
 	color: #ffffff;
+	font-size: 40px;
 }
 
 
@@ -334,9 +325,10 @@ section{
 	font-size: 17px;
 	text-align: left;
 	color: #ffffff;
+	line-height: 1.5;
 }
 
-#profilePic1{
+.profilePic{
 	height: 300px;
 	width: 300px;
 	position: absolute;
@@ -344,30 +336,12 @@ section{
 	left: 50%;
 	transform: translate(-50%, -50%);
 	border-radius: 50%;
-	border: 3px solid #EFE9F4;
+	border: 5px solid #487ead;
 	cursor: pointer;
 	transition: 0.4s;
 }
 
-#KarloPic:hover{
-	filter: brightness(120%);
-}
-
-#KarloPic{
-	height: 300px;
-	width: 300px;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	border-radius: 50%;
-	border: 3px solid #EFE9F4;
-
-	cursor: pointer;
-	transition: 0.4s;
-}
-
-#profilePic1:hover{
+.profilePic:hover{
 	filter: brightness(120%);
 }
 
