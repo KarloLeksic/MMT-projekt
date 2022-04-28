@@ -13,8 +13,8 @@ section{
 
 .rightHobbies{
 	font-family: "Montserrat Regular";
-	background-image: url("images/background/oblik7.png");
-	background-size:100%;
+	background-image: url("images/background/oblik8.png");
+	background-size:88%;
 	background-position: center;
 	background-color: #EFE9F4;
 	color: white;
@@ -243,7 +243,9 @@ section{
 }
 
 .leftVideo1{
-	background-color:#EFE9F4;
+	background-image: url("images/background/oblik5.png");
+	background-size: 62%;
+    background-color:#EFE9F4;
 	float:left;
 	width:50%;
 	box-sizing:border-box;
@@ -271,7 +273,9 @@ section{
 }
 
 .rightAudio1{
-    background-color: #EFE9F4;
+    background-image: url("images/background/oblik5.png");
+	background-size: 62%;
+    background-color:#EFE9F4;
 	float:left;
 	width:50%;
 	box-sizing:border-box;
@@ -366,6 +370,15 @@ a.links{
 	text-decoration: none;
 }
 a.links:hover{
+	opacity: 0.7;
+	transition: 0.5s;
+}
+a.linksFooter{
+	font-family: "Montserrat Bold";
+	color: #000000;
+	text-decoration: none;
+}
+a.linksFooter:hover{
 	opacity: 0.7;
 	transition: 0.5s;
 }
