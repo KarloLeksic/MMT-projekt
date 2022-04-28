@@ -233,13 +233,9 @@ section{
 
 .left{
 	background-image: url("images/background/oblik5.png");
-<<<<<<< HEAD
 	/*background-size: 62%;*/
 	background-position: center;
     background-color:#EFE9F4;
-=======
-	background-color: #EFE9F4;
->>>>>>> origin/main
 	float:left;
 	width:50%;
 	box-sizing:border-box;
