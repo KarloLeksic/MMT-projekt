@@ -44,7 +44,7 @@ hr{
 .hobbie{
 	position: absolute;
 	font-family: "Montserrat Bold";
-	top: 28%; /*kolko je od gornjeg ruba*/
+	top: 25%; /*kolko je od gornjeg ruba*/
 	left: 50%;
 	transform: translate(-50%, -50%);
 	font-size: 40px;
@@ -79,6 +79,7 @@ body {font-family: "Montserrat Regular"}
 
 .smallImg:hover, .smallImgKarlo:hover{
   opacity: 0.8;
+  transition: 0.3s;
 }
 
 img {vertical-align: middle;}
