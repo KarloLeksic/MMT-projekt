@@ -12,23 +12,23 @@ section{
 }
 
 .rightHobbies{
+	font-family: "Montserrat Regular";
+	background-image: url("images/background/oblik7.png");
+	background-size:100%;
+	background-position: center;
+	background-color: #EFE9F4;
+	color: white;
 	float:right;
 	width:50%;
 	box-sizing:border-box;
-  	text-align: center;
-  	height: 560px;
+    text-align: center;
+    height: 560px;
 	position: relative;
-
-	
-	background-color: #e5e5f7;
-	opacity: 1;
-	background-image:  radial-gradient(#444cf7 1.55px, transparent 1.55px), radial-gradient(#444cf7 1.55px, #e5e5f7 1.55px);
-	background-size: 62px 62px;
-	background-position: 0 0,31px 31px;
 }
 
 #hobbie{
 	position: absolute;
+	font-family: "Montserrat Bold";
 	top: 40%; /*kolko je od gornjeg ruba*/
 	left: 50%;
 	transform: translate(-50%, -50%);
@@ -58,7 +58,7 @@ section{
 
 
 * {box-sizing: border-box}
-body {font-family: Verdana, sans-serif; margin:0}
+body {font-family: "Montserrat Regular"}
 
 .KarloSlides, .MatejSlides {
   display: none;
@@ -200,16 +200,14 @@ img {vertical-align: middle;}
   cursor: pointer;
 }
 
-/*CSS od mateja*//*
 @font-face {
-	font-family: "Libre Bodoni Bold";
-	src: url("fonts/LibreBodoni-Bold.ttf") format("truetype");
+	font-family: "Montserrat Regular";
+	src: url("fonts/Montserrat/Montserrat-Regular.ttf") format("truetype");
 }
 @font-face {
-	font-family: "Libre Bodoni Regular";
-	src: url("fonts/LibreBodoni-Regular.ttf") format("truetype");
+	font-family: "Montserrat Bold";
+	src: url("fonts/Montserrat/Montserrat-Bold.ttf") format("truetype");
 }
-*/
 
 section{
 	width:100%;
@@ -217,10 +215,9 @@ section{
 }
 
 .left{
-	background-image: url("images/background/digitalart2.jpg");
-	background-blend-mode:soft-light;
-	background-size: cover;
-    background-color:#523328;
+	background-image: url("images/background/oblik5.png");
+	background-size: 62%;
+    background-color:#EFE9F4;
 	float:left;
 	width:50%;
 	box-sizing:border-box;
@@ -232,10 +229,9 @@ section{
 }
 
 .leftKarlo{
-	background-image: url("images/background/background	Karlo.jpg");
-	/*background-blend-mode:soft-light;*/
-	background-size: cover;
-    background-color:#523328;
+	background-image: url("images/background/oblik5.png");
+	background-size: 62%;
+    background-color:#EFE9F4;
 	float:left;
 	width:50%;
 	box-sizing:border-box;
@@ -247,6 +243,7 @@ section{
 }
 
 .leftVideo1{
+	background-color:#EFE9F4;
 	float:left;
 	width:50%;
 	box-sizing:border-box;
@@ -254,20 +251,15 @@ section{
     text-align: center;
     height: 500px;
 
-	position: relative;
 
-	background-color: #e5e5f7;
-	opacity: 1;
-	background-image:  radial-gradient(#444cf7 1.55px, transparent 1.55px), radial-gradient(#444cf7 1.55px, #e5e5f7 1.55px);
-	background-size: 62px 62px;
-	background-position: 0 0,31px 31px;
+	position: relative;
 }
 
 .right{
-	background-image: url("images/background/back1.jpg");
-	background-size: cover;
-	background-blend-mode: soft-light;
-    background-color: #D0ABA0;
+	background-image: url("images/background/oblik7.png");
+	background-size:100%;
+	background-position: center;
+    background-color: #EFE9F4;
 	float:left;
 	width:50%;
 	box-sizing:border-box;
@@ -279,7 +271,7 @@ section{
 }
 
 .rightAudio1{
-    background-color: #D0ABA0;
+    background-color: #EFE9F4;
 	float:left;
 	width:50%;
 	box-sizing:border-box;
@@ -288,12 +280,6 @@ section{
     height: 500px;
 
 	position: relative;
-
-	background-color: #f0f0ff;
-	opacity: 1;
-	background-image:  radial-gradient(#000dff 2px, transparent 2px), radial-gradient(#000dff 2px, #f0f0ff 2px);
-	background-size: 80px 80px;
-	background-position: 0 0,40px 40px;
 }
 
 .video{
@@ -320,8 +306,10 @@ section{
 	top: 20%; /*kolko je od gornjeg ruba*/
 	left: 50%;
 	transform: translate(-50%, -50%);
-	font-family: "Libre Bodoni Bold";
-	color: #523328;
+
+	font-family: "Montserrat Bold";
+	/*color: #523328;*/
+	color: #ffffff;
 }
 
 
@@ -330,9 +318,11 @@ section{
 	top: 55%; /*kolko je od gornjeg ruba*/
 	left: 50%;
 	transform: translate(-50%, -50%);
-	font-family: "Libre Bodoni Regular";
+
+	font-family: "Montserrat Regular";
 	font-size: 17px;
 	text-align: left;
+	color: #ffffff;
 }
 
 #profilePic1{
@@ -343,7 +333,7 @@ section{
 	left: 50%;
 	transform: translate(-50%, -50%);
 	border-radius: 50%;
-	border: 3px solid #D0ABA0;
+	border: 3px solid #EFE9F4;
 	cursor: pointer;
 	transition: 0.4s;
 }
@@ -360,6 +350,8 @@ section{
 	left: 50%;
 	transform: translate(-50%, -50%);
 	border-radius: 50%;
+	border: 3px solid #EFE9F4;
+
 	cursor: pointer;
 	transition: 0.4s;
 }
@@ -369,8 +361,8 @@ section{
 }
 
 a.links{
-	font-weight: bold;
-	color: #523328;
+	font-family: "Montserrat Bold";
+	color: #ffffff;
 	text-decoration: none;
 }
 a.links:hover{
