@@ -372,7 +372,7 @@
     //matejov modal
     var modal = document.getElementById("myModal");
     
-    var img = document.getElementById("profilePic1");
+    var img = document.getElementsByClassName("profilePic")[0];
     var modalImg = document.getElementById("img01");
     img.onclick = function(){
       modal.style.display = "block";
@@ -389,7 +389,7 @@
     //modal za karlovu profilnu
     var modalKarlo = document.getElementById("KarloModal");
     
-    var imgKarlo = document.getElementById("KarloPic");
+    var imgKarlo = document.getElementsByClassName("profilePic")[1];
     var modalImgKarlo = document.getElementById("img02");
     imgKarlo.onclick = function(){
       modalKarlo.style.display = "block";
