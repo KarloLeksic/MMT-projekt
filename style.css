@@ -7,14 +7,17 @@ section{
 	width:50%;
 	box-sizing:border-box;
   	text-align: center;
-  	height: 560px;
+  	height: 700px;
 	position: relative;
 }
 
 .rightHobbies{
 	font-family: "Montserrat Regular";
 	background-image: url("images/background/oblik8.png");
+<<<<<<< HEAD
 	/*background-size:88%;*/
+=======
+>>>>>>> origin/main
 	background-position: center;
 	background-color: #EFE9F4;
 	color: white;
@@ -22,21 +25,22 @@ section{
 	width:50%;
 	box-sizing:border-box;
     text-align: center;
-    height: 560px;
+    height: 700px;
 	position: relative;
 }
 
 .hobbie{
 	position: absolute;
 	font-family: "Montserrat Bold";
-	top: 30%; /*kolko je od gornjeg ruba*/
+	top: 28%; /*kolko je od gornjeg ruba*/
 	left: 50%;
 	transform: translate(-50%, -50%);
+	font-size: 35px;
 }
 
 .hobbies{
 	position: absolute;
-	top: 55%; /*kolko je od gornjeg ruba*/
+	top: 50%; /*kolko je od gornjeg ruba*/
 	left: 50%;
 	transform: translate(-50%, -50%);
 	text-align: left;
@@ -218,31 +222,18 @@ section{
 
 .left{
 	background-image: url("images/background/oblik5.png");
-	background-size: 62%;
+	/*background-size: 62%;*/
     background-color:#EFE9F4;
 	float:left;
 	width:50%;
 	box-sizing:border-box;
 	padding:5px;
     text-align: center;
-    height: 500px;
+    height: 600px;
 
 	position: relative;
 }
 
-.leftKarlo{
-	background-image: url("images/background/oblik5.png");
-	background-size: 62%;
-    background-color:#EFE9F4;
-	float:left;
-	width:50%;
-	box-sizing:border-box;
-	padding:5px;
-    text-align: center;
-    height: 500px;
-
-	position: relative;
-}
 
 .leftVideo1{
 	background-image: url("images/background/oblik10.png");
@@ -270,7 +261,7 @@ section{
 	box-sizing:border-box;
 	padding:5px;
     text-align: center;
-    height: 500px;
+    height: 600px;
 
 	position: relative;
 }
