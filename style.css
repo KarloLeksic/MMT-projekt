@@ -419,22 +419,21 @@ html{
 }
 
 ul.navbar {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	overflow: hidden;/* ne dela
-	text-align: center;
-	align-items: center;*/
-  }
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+}
   
-  li.navbar {
-	float: left;
-  }
+li.navbar {
+	display: inline;
+}
   
-  li a.navbar {
-	display: block;
+li a.navbar {
+	display: inline-block;
 	padding: 10px;
-	/*background-color: #ff0000;*/
+	text-align: center;
 	text-decoration: none;
 	font-family: "Montserrat Bold";
-  }
+	color: #002258;
+}
