@@ -417,3 +417,24 @@ footer{
 html{
 	scroll-behavior: smooth;
 }
+
+ul.navbar {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;/* ne dela
+	text-align: center;
+	align-items: center;*/
+  }
+  
+  li.navbar {
+	float: left;
+  }
+  
+  li a.navbar {
+	display: block;
+	padding: 10px;
+	/*background-color: #ff0000;*/
+	text-decoration: none;
+	font-family: "Montserrat Bold";
+  }
