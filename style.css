@@ -366,11 +366,7 @@ footer{
 }
 
 @media only screen and (max-width: 1720px) {
-	.hobbie{
-		font-size: 30px;
-		top: 25%;
-	}
-	.name {
+	.name, .hobbie{
 		font-size: 30px;
 		top: 30%;
 	}
@@ -401,7 +397,7 @@ footer{
 	}
 }
 
-@media only screen and (max-width: 1480px){
+@media only screen and (max-width: 1450px){
 	.rightHobbies{
 		background-size: 100%;
 	}
@@ -427,6 +423,12 @@ ul.navbar {
     margin:0;
     padding:0;
     text-align:center;
+	
+	position: sticky;
+   	top: 0;
+   	z-index: 100;
+	
+	/*background-color: #487ead;*/
 }
   
 li.navbar {
@@ -440,4 +442,7 @@ li a.navbar {
 	text-decoration: none;
 	font-family: "Montserrat Bold";
 	color: #002258;
+	font-size: 20px;
+	/*background-color: #487ead;
+	border-radius: 40%;*/
 }
