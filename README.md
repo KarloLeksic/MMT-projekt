@@ -1,0 +1,1 @@
+A project at the college for the multimedia technique course. The project was done by me and my friend, and you can see the final page [here](https://karloleksic.github.io/MMT-projekt.io/). It is adjusted on a normal size FHD monitor, so if you watch it on a larger one, it may not look the best
